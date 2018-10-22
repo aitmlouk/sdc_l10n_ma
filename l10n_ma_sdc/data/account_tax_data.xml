@@ -206,7 +206,6 @@
     <field name="amount">20</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_01')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_20"/>
   </record>
   <record model="account.tax.template" id="tva_vt14">
@@ -218,7 +217,6 @@
     <field name="amount">14</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_02')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_14"/>
   </record>
   <record model="account.tax.template" id="tva_vt10">
@@ -230,7 +228,6 @@
     <field name="amount">10</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_03')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_10"/>
   </record>
   <record model="account.tax.template" id="tva_vt07">
@@ -242,7 +239,6 @@
     <field name="amount">7</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_04')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_7"/>
   </record>
   <record model="account.tax.template" id="tva_ac20">
@@ -254,7 +250,6 @@
     <field name="amount">20</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_06')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_20"/>
   </record>
   <record model="account.tax.template" id="tva_acim">
@@ -266,7 +261,6 @@
     <field name="amount">20</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_09')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_20"/>
   </record>
   <record model="account.tax.template" id="tva_ac14">
@@ -278,7 +272,6 @@
     <field name="amount">14</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_07')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_14"/>
   </record>
   <record model="account.tax.template" id="tva_ac10">
@@ -290,7 +283,6 @@
     <field name="amount">10</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_05')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_10"/>
   </record>
   <record model="account.tax.template" id="tva_ac07">
@@ -302,7 +294,6 @@
     <field name="amount">7</field>
     <field name="amount_type">percent</field>
     <field name="chart_template_id" ref="l10n_kzc_temp_chart"/>
-    <field name="tag_ids" eval="[(6,0,[ref('tax_tag_08')])]"/>
     <field name="tax_group_id" ref="tax_group_tva_7"/>
   </record>
 </odoo>
